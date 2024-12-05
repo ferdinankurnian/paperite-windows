@@ -13,7 +13,7 @@ namespace Paperite
 {
     public partial class Register : Form
     {
-        private string conStr = "Data Source=LENOVO\\SQLEXPRESS; " + "Initial Catalog=Paperite; Integrated Security=True";
+        private string conStr = "Data Source=iydheko11\\SQLEXPRESS; " + "Initial Catalog=Paperite; Integrated Security=True";
         public Register()
         {
             InitializeComponent();
@@ -34,11 +34,10 @@ namespace Paperite
         private void btnRegister_Click(object sender, EventArgs e)
         {
             string email = txtEmail.Text.Trim();
-            string firstname = txtFirstname.Text;
-            string lastname = txtLastname.Text;
+            string name = txtName.Text;
             string password = txtPassword.Text.Trim();
 
-            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(firstname) || string.IsNullOrEmpty(lastname) || string.IsNullOrEmpty(password))
+            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(name) || string.IsNullOrEmpty(password))
             {
                 MessageBox.Show("Semua data harus diisi!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -52,12 +51,11 @@ namespace Paperite
                 try
                 {
                     conn.Open();
-                    string query = "INSERT INTO [user] (user_email, user_firstname, user_lastname, user_password) VALUES (@Email, @Firstname, @Lastname, @Password)";
+                    string query = "INSERT INTO [users] (user_email, user_name, user_password) VALUES (@Email, @Name, @Password)";
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
                         cmd.Parameters.AddWithValue("@Email", email);
-                        cmd.Parameters.AddWithValue("@Firstname", firstname);
-                        cmd.Parameters.AddWithValue("@Lastname", lastname);
+                        cmd.Parameters.AddWithValue("@Name", name);
                         cmd.Parameters.AddWithValue("@Password", encryptedPassword);
 
                         int result = cmd.ExecuteNonQuery();
@@ -94,6 +92,11 @@ namespace Paperite
         private void Register_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Register_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Paperite
 {
     public partial class Login : Form
     {
-        private string conStr = "Data Source=LENOVO\\SQLEXPRESS; " + "Initial Catalog=Paperite; Integrated Security=True";
+        private string conStr = "Data Source=iydheko11\\SQLEXPRESS; " + "Initial Catalog=Paperite; Integrated Security=True";
         public Login()
         {
             InitializeComponent();
@@ -51,16 +51,27 @@ namespace Paperite
                 try
                 {
                     conn.Open();
-                    string query = "SELECT COUNT(1) FROM [user] WHERE user_email = @email AND user_password = @password";
+
+                    // Query untuk mengambil user_id
+                    string query = "SELECT user_id FROM [users] WHERE user_email = @Email AND user_password = @Password";
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
-                        cmd.Parameters.AddWithValue("@email", email);
-                        cmd.Parameters.AddWithValue("@password", encryptedPassword);
+                        cmd.Parameters.AddWithValue("@Email", email);
+                        cmd.Parameters.AddWithValue("@Password", encryptedPassword);
 
-                        int count = Convert.ToInt32(cmd.ExecuteScalar());
-                        if (count == 1)
+                        // Eksekusi query dan ambil user_id
+                        object result = cmd.ExecuteScalar();
+
+                        if (result != null) // Jika user ditemukan
                         {
+                            string userId = result.ToString(); // Konversi user_id ke string
                             MessageBox.Show("Login berhasil!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                            // Simpan user_id ke Settings
+                            Properties.Settings.Default.UserId = userId;
+                            Properties.Settings.Default.IsLoggedIn = true;
+                            Properties.Settings.Default.Save();
+
                             // Buka form utama
                             Paperite home = new Paperite();
                             home.Show();
@@ -79,6 +90,7 @@ namespace Paperite
             }
         }
 
+
         private void lblRegister_Click(object sender, EventArgs e)
         {
             Register register = new Register();
@@ -94,6 +106,11 @@ namespace Paperite
                 byte[] bytes = sha256.ComputeHash(System.Text.Encoding.UTF8.GetBytes(plainPassword));
                 return Convert.ToBase64String(bytes);
             }
+        }
+
+        private void Login_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

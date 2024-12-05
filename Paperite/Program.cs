@@ -16,7 +16,14 @@ namespace Paperite
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Paperite());
+            if (Properties.Settings.Default.IsLoggedIn)
+            {
+                Application.Run(new Paperite());
+            }
+            else
+            {
+                Application.Run(new Login());
+            }
         }
     }
 }

@@ -140,5 +140,17 @@
   <ItemGroup>
     <None Include="Resources\frame 1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paperite Icon Frame - Light Mode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UserProfile\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userpfp.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

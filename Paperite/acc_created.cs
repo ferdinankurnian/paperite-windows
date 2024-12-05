@@ -21,7 +21,12 @@ namespace Paperite
         {
             Login login = new Login();
             login.Show();
-            this.Close(); // Tutup form register
+            this.Close();
+        }
+
+        private void acc_created_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
