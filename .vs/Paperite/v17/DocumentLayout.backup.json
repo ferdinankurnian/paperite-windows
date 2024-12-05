@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Paperite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|d:\\projects\\paperite\\paperite\\paperite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|solutionrelative:paperite\\paperite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|D:\\Projects\\Paperite\\paperite\\paperite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|solutionrelative:paperite\\paperite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|D:\\Projects\\Paperite\\paperite\\acc_created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|solutionrelative:paperite\\acc_created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|D:\\Projects\\Paperite\\paperite\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|solutionrelative:paperite\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|D:\\Projects\\Paperite\\paperite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|solutionrelative:paperite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|D:\\Projects\\Paperite\\paperite\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|solutionrelative:paperite\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|D:\\Projects\\Paperite\\paperite\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|solutionrelative:paperite\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|D:\\Projects\\Paperite\\paperite\\acc_created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|solutionrelative:paperite\\acc_created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|D:\\Projects\\Paperite\\paperite\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|solutionrelative:paperite\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|D:\\Projects\\Paperite\\paperite\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F49C3E3E-EFE4-482A-9AE0-57598FB41134}|Paperite\\Paperite.csproj|solutionrelative:paperite\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Paperite.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Paperite\\Paperite\\Paperite.cs",
+              "RelativeDocumentMoniker": "Paperite\\Paperite.cs",
+              "ToolTip": "D:\\Projects\\Paperite\\Paperite\\Paperite.cs [Design]*",
+              "RelativeToolTip": "Paperite\\Paperite.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T06:12:40.977Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Paperite.cs",
+              "DocumentMoniker": "D:\\Projects\\Paperite\\Paperite\\Paperite.cs",
+              "RelativeDocumentMoniker": "Paperite\\Paperite.cs",
+              "ToolTip": "D:\\Projects\\Paperite\\Paperite\\Paperite.cs*",
+              "RelativeToolTip": "Paperite\\Paperite.cs*",
+              "ViewState": "AgIAADAAAADgz8zMzMwUwAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T04:11:37.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "acc_created.cs",
+              "DocumentMoniker": "D:\\Projects\\Paperite\\Paperite\\acc_created.cs",
+              "RelativeDocumentMoniker": "Paperite\\acc_created.cs",
+              "ToolTip": "D:\\Projects\\Paperite\\Paperite\\acc_created.cs",
+              "RelativeToolTip": "Paperite\\acc_created.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T07:40:37.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Paperite\\Paperite\\Program.cs",
+              "RelativeDocumentMoniker": "Paperite\\Program.cs",
+              "ToolTip": "D:\\Projects\\Paperite\\Paperite\\Program.cs",
+              "RelativeToolTip": "Paperite\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T04:22:00.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\Projects\\Paperite\\Paperite\\Register.cs",
+              "RelativeDocumentMoniker": "Paperite\\Register.cs",
+              "ToolTip": "D:\\Projects\\Paperite\\Paperite\\Register.cs",
+              "RelativeToolTip": "Paperite\\Register.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAIAwwEIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T03:42:50.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Projects\\Paperite\\Paperite\\Login.cs",
+              "RelativeDocumentMoniker": "Paperite\\Login.cs",
+              "ToolTip": "D:\\Projects\\Paperite\\Paperite\\Login.cs",
+              "RelativeToolTip": "Paperite\\Login.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAADwv0AAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T03:01:54.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Paperite\\Paperite\\Register.cs",
+              "RelativeDocumentMoniker": "Paperite\\Register.cs",
+              "ToolTip": "D:\\Projects\\Paperite\\Paperite\\Register.cs [Design]",
+              "RelativeToolTip": "Paperite\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T03:51:46.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Paperite\\Paperite\\Login.cs",
+              "RelativeDocumentMoniker": "Paperite\\Login.cs",
+              "ToolTip": "C:\\Users\\LOQ\\source\\repos\\Paperite\\Paperite\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T03:51:35.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "acc_created.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Paperite\\Paperite\\acc_created.cs",
+              "RelativeDocumentMoniker": "Paperite\\acc_created.cs",
+              "ToolTip": "D:\\Projects\\Paperite\\Paperite\\acc_created.cs [Design]",
+              "RelativeToolTip": "Paperite\\acc_created.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:41:11.789Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Profile.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Paperite\\Paperite\\Profile.cs",
+              "RelativeDocumentMoniker": "Paperite\\Profile.cs",
+              "ToolTip": "C:\\Users\\LOQ\\source\\repos\\Paperite\\Paperite\\Profile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T03:50:14.939Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
